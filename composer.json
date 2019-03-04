@@ -1,5 +1,5 @@
 {
-  "name": "SorterByStrategy",
+  "name": "sorterbystrategy",
   "description": "This library demonstrate usage the Strategy pattern",
   "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
   "type": "library",
