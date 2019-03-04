@@ -1,5 +1,5 @@
 {
-  "name": "sorterbystrategy",
+  "name": "nammero/sorterbystrategy",
   "description": "This library demonstrate usage of the Strategy pattern",
   "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
   "type": "library",
