@@ -3,4 +3,16 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use App\Context, App\SortToBigger, App\SortToSmaller;
 
+$data = [81, 22, 14, 10, 47];
+
+$toSmaller = new Context(new SortToSmaller());
+$toBigger = new Context(new SortToBigger());
+$sorted = $toSmaller->Sort($data);
+
+print_r($sorted);
+
+$sorted = $toBigger->Sort($data);
+
+print_r($sorted);

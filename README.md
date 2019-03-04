@@ -1,8 +1,5 @@
-Default Project
 ===============
 
-This is a default structure for PHP projects. With this template you can speed up the process of creating of new:
-open-source, proprietary, test, demo and etc. projects!
 
 This template has basic configuration for [PHPUnit](https://github.com/sebastianbergmann/phpunit) and
 [PHP-CS-Fixer](https://github.com/friendsofphp/php-cs-fixer) libraries, configured `composer.json`
