@@ -1,6 +1,6 @@
 {
   "name": "sorterbystrategy",
-  "description": "This library demonstrate usage the Strategy pattern",
+  "description": "This library demonstrate usage of the Strategy pattern",
   "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
   "type": "library",
   "license": "BSD-3-Clause",
