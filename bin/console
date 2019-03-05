@@ -6,12 +6,15 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use nammero\sorterbystrategy\Sorter;
 use nammero\sorterbystrategy\SortToBigger;
 use nammero\sorterbystrategy\SortToSmaller;
+use nammero\sorterbystrategy\NullSorter;
 
 $data = [81, 22, 14, 10, 47];
 
 $toSmaller = new Sorter(new SortToSmaller());
 $toBigger = new Sorter(new SortToBigger());
+$nullSorter = new NullSorter();
 $sorted = $toSmaller->sortArr($data);
+$nullSorted = $toBigger->sortArr($data);
 
 print_r($sorted);
 

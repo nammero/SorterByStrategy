@@ -3,19 +3,24 @@
 namespace nammero\sorterbystrategy;
 
 /**
- * Class Context using Strategy interface
+ * Class Sorter using Strategy interface
  */
 class Sorter
 {
-    private $sortInterfaceObject;
+    private $sortStrategy;
+
+    public function setSortStrategy(SorterInterface $sortStrategy): void
+    {
+        $this->sortStrategy = $sortStrategy;
+    }
 
     public function __construct(SorterInterface $sortInterfaceObject)
     {
-        $this->sortInterfaceObject = $sortInterfaceObject;
+        $this->sortStrategy = $sortInterfaceObject;
     }
 
     public function sortArr($arr): array
     {
-        return $this->sortInterfaceObject->sortArray($arr);
+        return $this->sortStrategy->sortArray($arr);
     }
 }
