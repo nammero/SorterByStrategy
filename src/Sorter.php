@@ -1,12 +1,11 @@
 <?php
 
-namespace App;
+namespace nammero\sorterbystrategy;
 
 /**
  * Class Context using Strategy interface
- * @package App
  */
-class Context
+class Sorter
 {
     private $sortInterfaceObject;
 
@@ -15,7 +14,7 @@ class Context
         $this->sortInterfaceObject = $sortInterfaceObject;
     }
 
-    public function Sort($arr): array
+    public function sortArr($arr): array
     {
         return $this->sortInterfaceObject->sortArray($arr);
     }

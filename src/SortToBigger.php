@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
+namespace nammero\sorterbystrategy;
 
 /**
  * Class SortToBigger implement ASC sorting
- * @package App
  */
 class SortToBigger implements SorterInterface
 {

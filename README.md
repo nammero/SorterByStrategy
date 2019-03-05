@@ -6,9 +6,6 @@ This template has basic configuration for [PHPUnit](https://github.com/sebastian
 with PSR-4 namespaces for source code and tests, `.gitignore` with basic files and directories to exclude them from Git, changelog file
 and README with cool  badges :)
 
-[![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
-[![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
-![Custom badge](https://img.shields.io/badge/greeflas-default--project-red.svg)
 
 Installation
 ------------
@@ -16,7 +13,7 @@ Installation
 For creating new project based on this template just execute the following command
 
 ```
-$ composer create-project greeflas/default-project project-name
+$ composer create-project nammero/sorterbystrategy
 ```
 
 > NOTE: You can add `--no-dev` right after `create-project` flag if you don't want to install dev dependencies to your project
@@ -59,8 +56,8 @@ $ composer cs-fix
 License
 -------
 
-[![license](https://img.shields.io/github/license/greeflas/default-project.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/nammero/sorterbystrategy.svg)](LICENSE)
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
-Copyright (c) 2018, Vladimir Kuprienko
+Copyright (c) 2019, Eugene Zadorozhnyy

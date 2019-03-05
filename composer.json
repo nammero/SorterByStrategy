@@ -1,7 +1,6 @@
 {
   "name": "nammero/sorterbystrategy",
   "description": "This library demonstrate usage of the Strategy pattern",
-  "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [
@@ -21,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "nammero/sorterbystrategy\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "App\\Test\\": "tests/"
+      "nammero/sorterbystrategy\\Test\\": "tests/"
     }
   },
   "scripts": {

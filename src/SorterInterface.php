@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
+namespace nammero\sorterbystrategy;
 
 /**
  * Interface SorterInterface used by Context class for the specific Strategy implementation
- * @package App
  */
 interface SorterInterface
 {

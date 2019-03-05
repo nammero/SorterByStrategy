@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
+namespace nammero\sorterbystrategy;
 
 /**
  * Class SortToSmaller implement DESC sorting
- * @package App
  */
 class SortToSmaller implements SorterInterface
 {
