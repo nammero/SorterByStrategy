@@ -3,7 +3,7 @@
 namespace nammero\sorterbystrategy;
 
 /**
- * Interface SorterInterface used by Context class for the specific Strategy implementation
+ * Interface SorterInterface used by Sorter class for the specific Strategy implementation
  */
 interface SorterInterface
 {
